@@ -1,0 +1,1 @@
+﻿// with great power comes great resposability.// - Ben Parkerfor(var i = app.documents.length-1; i >= 0; i--){    app.documents[i].close(SaveOptions.DONOTSAVECHANGES);    }
