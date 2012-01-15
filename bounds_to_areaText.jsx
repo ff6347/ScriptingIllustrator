@@ -1,0 +1,1 @@
+﻿//~ alert(app.selection[0].width);var d = app.activeDocument;var rect = d.pathItems.rectangle( 0, 0, 200,20);var tf = d.textFrames.areaText(rect);    tf.contents = Math.round(app.selection[0].width) + " cm";        var rect = d.pathItems.rectangle( 0, 10, 200,20);var tf = d.textFrames.areaText(rect);    tf.contents = Math.round(app.selection[0].height) + " cm";
